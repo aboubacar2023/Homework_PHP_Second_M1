@@ -15,7 +15,7 @@ if (!$auth->isLoggedIn()) {
                 class="py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-800 hover:bg-blue-900">
                 Retour
             </button></a>
-        <h3 class="text-2xl text-center pb-4">Nouvel Article</h3>
+        <h3 class="text-2xl text-center pb-4">Nouvelle catégotie</h3>
         <form action="../../controllers/CategorieController.php" method="POST" class="space-y-4">
             <div class="grid grid-cols-2 gap-3">
                 <input type="hidden" name="action" value="createCategorie">

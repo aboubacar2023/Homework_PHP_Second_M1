@@ -19,7 +19,7 @@ $categories = $query->fetchAll();
         <h1 class="text-2xl font-bold">Gestion des Catégories</h1>
         <a href="categorie_create.php">
             <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-lg flex items-center">
-                <i class="fas fa-plus mr-2"></i> Nouveau catégorie
+                <i class="fas fa-plus mr-2"></i> Nouvelle catégorie
             </button>
         </a>
     </div>
