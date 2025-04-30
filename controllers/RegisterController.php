@@ -3,7 +3,7 @@
 require __DIR__ . '/../conf/Database.php';
 
 
-$db = Database::getInstance()->getConnection();
+$db = Database::getInstance()->getConnection(); 
 
 $prenom = $_POST["prenom"];
 $nom = $_POST["nom"];
